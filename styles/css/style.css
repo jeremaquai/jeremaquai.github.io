@@ -33,22 +33,23 @@ body {
   .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('./styles/images/mountain.jpg');
-    background-size: cover;
-    color: #ffffff;
-    height: 400px;
+    background-image: url(../../styles/images/mountain.jpg);
+    background-size: 100% 100%;
+    color: #000;
+    min-height: 500px;
+    height: auto;
   }
   
   .jumbotron h2 {
     font-size: 60px;
     font-weight: 700;
     margin: 0;
-    color: gray;
+    color: #000;
   }
   
   .jumbotron h3 {
     margin: 0 0 20px;
-    color: gray;
+    color: #111;
   }
   
   section .row img {
