@@ -1,5 +1,9 @@
 
 /* Global Styles */
+.hide {
+  display: none;
+}
+
 body {
     font-family: Roboto, sans-serif;
     background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
