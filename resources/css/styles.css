@@ -100,7 +100,8 @@
 #mindcraft-info,
 #design-system-info,
 #serpents-info,
-#mjf-info {
+#mjf-info,
+#portfolio-v1-info {
     width: 90%;
 }
 
@@ -113,7 +114,8 @@
 #mindcraft-info img,
 #design-system-info img,
 #serpents-info img,
-#mjf-info img {
+#mjf-info img,
+#portfolio-v1-info img {
     max-width: 100%;
     height: auto;
 }
@@ -133,10 +135,6 @@
     text-decoration: none;
     text-align: center;
     color: black;
-}
-
-.button1 a {
-    padding: auto;
 }
 
 /* Responsive to Cell Phones */
