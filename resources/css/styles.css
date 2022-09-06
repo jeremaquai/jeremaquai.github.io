@@ -1,0 +1,160 @@
+/* Coded by Jeremaquai */
+
+/* Nav */
+
+.nav {
+    background-color: lightgrey;
+    outline: 2px solid black;
+    padding: .5rem;
+}
+
+/* Menu Buttons */
+
+.menu-button {
+    border: 1px solid black;
+    width: 20px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.menu-button:hover {
+    cursor: pointer;
+}
+
+.fa-bars {
+    padding: 3px;
+}
+
+/* Lists */
+
+#menu-list,
+.projects-list,
+#personal-projects,
+#codecademy-projects {
+    list-style: none;
+}
+
+
+
+/* About Me Section */
+
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 1rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.about-text {
+    text-align: center;
+    width: 40%;
+}
+
+
+.about-photo {
+    width: 40%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+}
+
+/* Skills section */
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+
+/* Contact Me section */
+.contact-me {
+    margin: 2rem;
+    padding: 1rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+/* Projects Page */
+
+#jt-page-info,
+#html-cheat-info,
+#teacozy-info,
+#excursion-info,
+#colmar-info,
+#eightball-info,
+#mindcraft-info,
+#design-system-info,
+#serpents-info,
+#mjf-info {
+    width: 90%;
+}
+
+#jt-page-info img,
+#html-cheat-info img,
+#teacozy-info img,
+#excursion-info img,
+#colmar-info img,
+#eightball-info img,
+#mindcraft-info img,
+#design-system-info img,
+#serpents-info img,
+#mjf-info img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Projects Page Buttons */
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1 {
+    border: 2px solid black;
+    border-radius: 5%;
+    background-color: darkgray;
+    padding: .5rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.button1 a {
+    padding: auto;
+}
+
+/* Responsive to Cell Phones */
+
+@media only screen and (max-width: 600px) {
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-text {
+        width: auto;
+    }
+
+    .about-photo {
+        width: auto;
+    }
+
+    .buttons-container {
+        flex-direction: column;
+    }
+}
