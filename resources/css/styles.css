@@ -1,11 +1,27 @@
 /* Coded by Jeremaquai */
 
+/* Global styles */
+body {
+    background-image: url(../images/scott-webb-UjupleczBOY-unsplash.jpg);
+}
+
 /* Nav */
 
 .nav {
     background-color: lightgrey;
     outline: 2px solid black;
     padding: .5rem;
+}
+
+#menu-list li {
+    /*margin-bottom: .5rem;*/
+    padding: .5rem;
+}
+
+#menu-list a {
+    text-decoration: none;
+    color: black;
+    
 }
 
 /* Menu Buttons */
@@ -34,6 +50,10 @@
     list-style: none;
 }
 
+.projects-list h3:hover,
+.projects-list h4:hover {
+    cursor: pointer;
+}
 
 
 /* About Me Section */
@@ -101,7 +121,10 @@
 #design-system-info,
 #serpents-info,
 #mjf-info,
-#portfolio-v1-info {
+#portfolio-v1-info,
+#number-guesser-info,
+#card-checker-info,
+#organism-info {
     width: 90%;
 }
 
@@ -115,7 +138,10 @@
 #design-system-info img,
 #serpents-info img,
 #mjf-info img,
-#portfolio-v1-info img {
+#portfolio-v1-info img,
+#number-guesser-info img,
+#card-checker-info img,
+#organism-info img {
     max-width: 100%;
     height: auto;
 }

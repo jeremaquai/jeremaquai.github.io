@@ -37,6 +37,19 @@ const serpentsInfo = document.getElementById('serpents-info');
 const mjfClosed = document.getElementById('mjf-closed');
 const mjfOpened = document.getElementById('mjf-opened');
 const mjfInfo = document.getElementById('mjf-info');
+const portfolioClosed = document.getElementById('portfolio-v1-closed');
+const portfolioOpened = document.getElementById('portfolio-v1-opened');
+const portfolioInfo = document.getElementById('portfolio-v1-info');
+const numberGuesserClosed = document.getElementById('number-guesser-closed');
+const numberGuesserOpened = document.getElementById('number-guesser-opened');
+const numberGuesserInfo = document.getElementById('number-guesser-info');
+const cardCheckerClosed = document.getElementById('card-checker-closed');
+const cardCheckerOpened = document.getElementById('card-checker-opened');
+const cardCheckerInfo = document.getElementById('card-checker-info');
+const organismClosed = document.getElementById('organism-closed');
+const organismOpened = document.getElementById('organism-opened');
+const organismInfo = document.getElementById('organism-info');
+
 
 // Hide Elements
 personalProjectsOpened.hidden = true;
@@ -63,6 +76,14 @@ serpentsOpened.hidden = true;
 serpentsInfo.hidden = true;
 mjfOpened.hidden = true;
 mjfInfo.hidden = true;
+portfolioOpened.hidden = true;
+portfolioInfo.hidden = true;
+numberGuesserOpened.hidden = true;
+numberGuesserInfo.hidden = true;
+cardCheckerOpened.hidden = true;
+cardCheckerInfo.hidden = true;
+organismOpened.hidden = true;
+organismInfo.hidden = true;
 
 
 // On Click Functions
@@ -210,3 +231,52 @@ mjfOpened.onclick = function() {
     mjfInfo.hidden = true;
     mjfClosed.hidden = false;
 }
+
+portfolioClosed.onclick = function() {
+    portfolioClosed.hidden = true;
+    portfolioOpened.hidden = false;
+    portfolioInfo.hidden = false;
+}
+
+portfolioOpened.onclick = function() {
+    portfolioOpened.hidden = true;
+    portfolioInfo.hidden = true;
+    portfolioClosed.hidden = false;
+}
+
+numberGuesserClosed.onclick = function() {
+    numberGuesserClosed.hidden = true;
+    numberGuesserOpened.hidden = false;
+    numberGuesserInfo.hidden = false;
+}
+
+numberGuesserOpened.onclick = function() {
+    numberGuesserOpened.hidden = true;
+    numberGuesserInfo.hidden = true;
+    numberGuesserClosed.hidden = false;
+}
+
+cardCheckerClosed.onclick = function() {
+    cardCheckerClosed.hidden = true;
+    cardCheckerOpened.hidden = false;
+    cardCheckerInfo.hidden = false;
+}
+
+cardCheckerOpened.onclick = function() {
+    cardCheckerOpened.hidden = true;
+    cardCheckerInfo.hidden = true;
+    cardCheckerClosed.hidden = false;
+}
+
+organismClosed.onclick = function() {
+    organismClosed.hidden = true;
+    organismOpened.hidden = false;
+    organismInfo.hidden = false;
+}
+
+organismOpened.onclick = function() {
+    organismOpened.hidden = true;
+    organismInfo.hidden = true;
+    organismClosed.hidden = false;
+}
+
