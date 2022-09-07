@@ -49,8 +49,12 @@ h4 {
 
 .nav {
     background-color: lightgrey;
-    outline: 2px solid black;
+    border-bottom: 2px solid black;
     padding: .5rem;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
 }
 
 #menu-list li {
@@ -81,6 +85,11 @@ h4 {
     padding: 3px;
 }
 
+/* Header */
+h1 {
+    text-align: center;
+    padding: 3rem;
+}
 /* Lists */
 
 #menu-list,
@@ -152,6 +161,10 @@ h4 {
 }
 
 /* Projects Page */
+
+.projects-container {
+    border-top: 2px solid black;
+}
 
 #jt-page-info,
 #html-cheat-info,
