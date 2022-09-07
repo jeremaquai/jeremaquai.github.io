@@ -165,4 +165,4 @@ Project Link: [https://github.com/jeremaquai/jeremaquai.github.io](https://githu
 [license-url]: https://github.com/jeremaquai/jeremaquai.github.io/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jeremiah-sparks
-[product-screenshot]: ./resources/images/Portfolio-screenshot.png
+[product-screenshot]: resources/images/Portfolio-screenshot.png
